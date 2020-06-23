@@ -1,5 +1,5 @@
 body{
-  width: 375px;
+  width: 300px;
   height: 100%;
   margin: 0 auto;
   background: #363537;
@@ -10,7 +10,7 @@ header{
   display: grid;
   justify-content: center;
   align-self: center;
-  height: 60px;
+  height: 50px;
   grid-template-columns: 20% 60%;
 }
 header .link{
@@ -22,19 +22,19 @@ header .title{
   display: grid;
   justify-items: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 25px;
   color: #ccc;
 }
 .link{
   display: grid;
   justify-self: center;
   align-self: center;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
 }
 .link img{
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 .btn_wrapper{
   display: grid;
@@ -42,7 +42,7 @@ header .title{
   width: 90%;
   height: 100%;
   margin: 0 auto;
-  padding-bottom: 15%;
+  padding-bottom: 18%;
   gap: 3%;
   padding-top: 20px;
   grid-template-columns: repeat(auto-fill, minmax(100px));
