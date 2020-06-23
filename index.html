@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Textshifter</title>
+</head>
+<body>
+  <header class="header">
+    <a href="https://loapits.github.io/Textshifter/" class="link" target="blank"><img src="./logo_main.svg" alt="logo of extention"></a>
+    <div class="title">Textshifter</div>
+  </header>
+  <main>
+    <div>
+      <div class="input">
+        <textarea placeholder="Enter the text" class="inputTextarea"></textarea>
+      </div>
+      <div class="output">
+        <textarea placeholder="Your result" class="outputTextarea" readonly></textarea>
+      </div>
+    </div>
+    <div class="btn_wrapper">
+      <button class="btn" id="uppercase">Uppercase</button>
+      <button class="btn" id="lowercase">Lowercase</button>
+      <button class="btn" id="firstTitle">First title</button>
+      <button class="btn" id="registerInversion">Register inversion</button>
+      <button class="btn" id="startAsUppercase">Start as uppercase</button>
+      <button class="btn" id="sentence">As in the sentence</button>
+      <button class="btn" id="replace">Eng ⇄ Ru</button>
+    </div>
+  </main>
+  <footer>©Textshifter 2020</footer>
+  <script src="index.js"></script>
+</body>
+</html>
