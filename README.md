@@ -1,5 +1,5 @@
 # Textshifter Extetion
-Extending the Textshifter application/
+Extending the Textshifter application.
 1. To upload an extension to the store, we need to go to the menu, 
 move the mouse to “advanced settings”, 
 and then select “extensions” or
